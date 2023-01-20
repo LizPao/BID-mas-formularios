@@ -27,6 +27,45 @@
 .App-link {
   color: #61dafb;
 }
+.divForm{
+  background-color: rgb(247, 242, 242);
+  width: 350px;
+  height: 60px;
+  border-radius: 10px;
+  margin: 10px auto;
+  border: 1px solid rgb(128, 127, 127);
+}
+.inputForm{
+  display: inline-flex;
+  margin-right: 5px;
+  border-radius: 4px;
+  height: 25px;
+  margin: 10px;
+  border: 1px solid rgb(128, 127, 127);
+}
+.labelForm{
+  display: inline-flex;;
+  margin: 2px;
+  width: 80px;
+  
+}
+.result{
+  background-color: rgb(247, 242, 242);
+  width: 350px;
+  margin: auto;
+  padding: 10px;
+}
+.titleData{
+  text-align: center;
+}
+p{
+  text-align: left;
+}
+.passcheck{
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
 
 @keyframes App-logo-spin {
   from {
